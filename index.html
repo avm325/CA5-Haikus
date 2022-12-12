@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haikus</title>
+    <link rel=" stylesheet" href="style.css">
+</head>
+<body>
+
+        <!-- carosel code -->
+        <div class="carosel">
+        <div class="mySlides cfade">
+            <h1>
+            Autumn leaves fallen <br>
+            There is beauty in decay <br>
+            Orange like lanterns
+            </h1>
+        </div>
+        <div class="mySlides cfade">
+           <h1>
+            Weather beaten fall <br>
+            before a frosty winter <br>
+            betrayed by the leaves 
+            </h1>
+        </div>
+        <div class="mySlides cfade">
+            <h1>
+                it was yesterday <br>
+                when old distant me had changed <br>
+                changed by watching you                
+             </h1>
+         </div>
+         <div class="mySlides cfade">
+            <h1>
+                Seasons come and go <br>
+                I return to branches bare <br>
+                Must I grow again?                
+             </h1>
+         </div>
+         <div class="mySlides cfade">
+            <h1>
+                When will spring arrive? <br>
+                Leaves provide no company <br>
+                The trees stand alone
+             </h1>
+         </div>
+         <div class="mySlides cfade">
+            <h1>
+                Time moved so quickly <br>
+                The semester gone away <br>
+                What will I become?                
+             </h1>
+         </div>
+
+
+
+        <div style="text-align:center">
+            <span class="dot"></span> <span class="dot"></span> 
+            <span class="dot"></span> <span class="dot"></span> 
+            <span class="dot"></span> <span class="dot"></span> 
+            <span class="dot"></span> <span class="dot"></span> 
+            <span class="dot"></span> <span class="dot"></span> 
+        </div>
+        </div>
+
+        <div class="gform"><a href="https://forms.gle/FwRyH8zNT1Rft85q7">
+            <h3>click to submit your own haiku</a></h3></div>
+
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 4000); // 4 seconds
+        }
+        </script> 
+
+
+
+
+</body>
+</html>
