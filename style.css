@@ -102,11 +102,11 @@ h3{
     cursor: pointer;
     }
     a:visited { 
-    color: #7addc6;
+    color: #dda87a; 
     cursor: pointer;
     }
     a:hover {
-    color: #7addc6;
+    color: #dda87a; 
     cursor: pointer;
     text-shadow: none;
     }
