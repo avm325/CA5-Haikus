@@ -82,13 +82,12 @@ h3{
 
 @media (max-width: 600px){
     h1{font-size: 20px; padding: 3vh;}
-    .gform{padding-top: 6vh;}
     .carosel{
         position: absolute;
         top: 45vw;}
     .gform{
     position: absolute;
-    top: 80vh;
+    top: 82vh;
     font-size: 16px;
     }
     .long h1{font-size: 17px;}
