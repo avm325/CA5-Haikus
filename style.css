@@ -22,7 +22,7 @@ top: 20vw;
     top: 45vw;
     font-family:'Courier New', Courier, monospace;
     font-weight: 200;
-}
+    }
 
 * {box-sizing: border-box;}
 
@@ -65,7 +65,7 @@ h1{
 }
 
 h2{
-    color: white;
+    color: #dda87a;    
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
     text-align: center;
@@ -99,7 +99,7 @@ h3{
     cursor: pointer;
     }
     a:link { 
-    color: #7addc6;
+    color: #dda87a;    
     cursor: pointer;
     }
     a:visited { 
@@ -107,7 +107,7 @@ h3{
     cursor: pointer;
     }
     a:hover {
-    color: #dda87a;
+    color: #7addc6;
     cursor: pointer;
     text-shadow: none;
     }
