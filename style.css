@@ -75,7 +75,7 @@ h3{
     font-weight: 400;
     font-style: normal;
     font-size: 80px;
-    padding-top: 2vw;
+    padding-top: 5vw;
 
 }
 
@@ -89,7 +89,9 @@ h3{
         }
     .gform{
     position: absolute;
-    top: 90vw;}
+    top: 90vw;
+    font-size: 20px;
+}
 }
 
     a{-webkit-transition: color .5s;
@@ -101,7 +103,7 @@ h3{
     cursor: pointer;
     }
     a:visited { 
-    color: white;
+    color: #7addc6;
     cursor: pointer;
     }
     a:hover {
